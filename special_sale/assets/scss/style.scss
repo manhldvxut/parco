@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* =========================================================
+colors
+========================================================= */
+@import "_colors";
+
+/* =========================================================
+body
+========================================================= */
+html {
+  font-size: 62.5%;
+  letter-spacing: 0.03em;
+  line-height: 1.3rem;
+}
+body {
+  color: #000;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  background: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+img {
+  width: 100%;
+}
+
+@media print {
+  html, body {
+    _zoom: 70%!important;
+  }
+}
+
+main {
+  display: block; /*IE*/
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap');
+
+/* =========================================================
+default
+========================================================= */
+@import "_default";
+
+/* =========================================================
+layout
+========================================================= */
+@import "_layout";
